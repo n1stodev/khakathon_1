@@ -21,6 +21,9 @@ function Login() {
             Email: ${newUser.name}
             Password: ${newUser.password}
         `)
+        name.value = ''
+        password.value = ''
+
     }
     console.log(eye)
     return (
