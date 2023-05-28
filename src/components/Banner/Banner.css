@@ -1,5 +1,29 @@
 .banner {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background: url(../../assets/about\ us\ photo\ 1.png) no-repeat center/cover;
+    padding: 7% 7%;
+    align-items: center;
+}
+
+.banner h1 {
+    width: 30%;
+    color: #f3e89f;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: montserrat;
+}
+
+.banner span {
+    font-weight: 700;
+    font-family: montserrat;
+
+}
+
+.banner__info p {
+    font-size: 16px;
+}
+
+.banner__info h3 {
+    color: red;
 }
