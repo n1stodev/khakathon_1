@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Banner from './components/Banner/Banner'
 // import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import Login from './router/login/Login';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Banner />
       <Footer />
+      <Login />
       {/* <ToastContainer /> */}
     </div>
   );
