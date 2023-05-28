@@ -17,11 +17,11 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffff;
-  background: dodgerblue;
+  background-color: #4c5930;
+  background: #fff;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
-  height: 50px;
+  color: #4c5930;
+  height: 100px;
   position: sticky;
   padding: 1em;
 }
@@ -33,10 +33,11 @@ html, body {
   margin: 0;
   padding: 0;
 }
-.lol {
-    font-size: 28px;
+.lol img {
+    width: 100px;
     text-decoration: none;
-    color: #fff;
+    color: #4c5930;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu > li {
@@ -67,7 +68,7 @@ html, body {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: #4c5930;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -106,7 +107,7 @@ html, body {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 80px;
     left: 0;
     flex-direction: column;
     width: 100%;
@@ -132,7 +133,7 @@ html, body {
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
+    color: #fff;
     background-color: rgb(51, 51, 51);
 
   }
