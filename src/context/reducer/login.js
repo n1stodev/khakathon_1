@@ -1,11 +1,11 @@
-import { ADD_TO_HEART, DEL_FROM_HEART } from '../action/actionType'
+import { CLOSE_LOGIN, OPEN_LOGIN } from '../action/actionType'
 
-const login = (state = [], action) => {
+const login = (state = false, action) => {
     switch (action.type) {
-        case ADD_TO_HEART:
-            return state = [...state, action.payload]
-        case DEL_FROM_HEART:
-            return state = state.filter(i => i.id !== action.payload.id)
+        case OPEN_LOGIN:
+            return state = true
+        case CLOSE_LOGIN:
+            return state = false
         default:
             return state
     }
