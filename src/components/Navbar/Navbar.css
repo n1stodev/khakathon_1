@@ -37,13 +37,14 @@ html, body {
     width: 100px;
     text-decoration: none;
     color: #4c5930;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 .menu > li {
     font-size: 18px;
-  margin: 0 1rem;
-  overflow: hidden;
+    margin: 0 1rem;
+    overflow: hidden;
+    cursor: pointer;
 }
 .menu li a{
     text-decoration: none;
