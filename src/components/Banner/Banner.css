@@ -2,8 +2,12 @@
     width: 100%;
     height: 450px;
     background: url(../../assets/about\ us\ photo\ 1.png) no-repeat center/cover;
-    padding: 7% 7%;
+}
+
+.banner .container {
+    display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .banner h1 {
@@ -11,7 +15,6 @@
     color: #f3e89f;
     font-size: 45px;
     font-weight: 300;
-    font-family: montserrat;
 }
 
 .banner span {
@@ -20,10 +23,68 @@
 
 }
 
+.banner__info {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
 .banner__info p {
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 3px;
 }
 
 .banner__info h3 {
     color: red;
+    font-size: 35px;
+    font-weight: 450;
+    width: 100%;
+}
+
+.banner__info span {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1000px) {
+    .banner .container {
+        padding: 0 5%;
+    }
+
+    .banner__info {
+        padding: 50px 4%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .banner {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:846px) {
+    .banner h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .banner {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .banner h1 {
+        width: 50%;
+        font-size: 35px;
+
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .banner {
+
+        height: 300px;
+    }
 }
