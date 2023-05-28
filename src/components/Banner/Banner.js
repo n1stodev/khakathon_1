@@ -10,9 +10,12 @@ function Banner() {
 
                 </div>
             </div>
-            <div className="banner__info container">
-                <h3>ABOUT <span>US</span></h3>
-                <p>The ReDaily project, like many others, was born in bath. One of our team members complained about how many different bottles he had in his bathroom. He was especially afraid of what was going to happen to all those bottles after. And rightfully so, as at best some of them would be only partially recycled.</p>
+            <div className="banner__info ">
+                <div className="container">
+
+                    <h3>ABOUT <span>US</span></h3>
+                    <p>The ReDaily project, like many others, was born in bath. One of our team members complained about how many different bottles he had in his bathroom. He was especially afraid of what was going to happen to all those bottles after. And rightfully so, as at best some of them would be only partially recycled.</p>
+                </div>
             </div>
         </>
     )
