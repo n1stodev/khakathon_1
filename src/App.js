@@ -2,8 +2,6 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Banner from './components/Banner/Banner'
-// import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
 import Login from './router/login/Login';
 
 function App() {
@@ -13,7 +11,6 @@ function App() {
       <Banner />
       <Footer />
       <Login />
-      {/* <ToastContainer /> */}
     </div>
   );
 }
