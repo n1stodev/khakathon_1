@@ -4,7 +4,7 @@
     scale: 0;
     display: grid;
     place-items: center;
-    background: transparent;
+    background: #0007;
     position: fixed;
     top: 0;
     left: 0;
@@ -66,8 +66,8 @@
 
 .login__eye {
     position: absolute;
-    top: 77px;
-    right: 35px;
+    top: 74px;
+    right: 45px;
     font-size: 22px;
     cursor: pointer;
 }

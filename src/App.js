@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
 import Banner from './components/Banner/Banner'
 import Login from './router/login/Login';
 
@@ -9,7 +8,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Banner />
-      <Footer />
       <Login />
     </div>
   );
