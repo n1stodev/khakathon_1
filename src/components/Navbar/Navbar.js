@@ -1,9 +1,13 @@
 import React from 'react'
 import "./Navbar.css"
 import logo from "../../assets/logo.png"
+
 function Navbar() {
     return (
         <div>
+            {/* navbar was created by the hijab princess */}
+            <div className="container">
+
      <meta name='viewport' content='width=device-width, initial-scale=1' />
   <section class="top-nav">
     <div>
@@ -21,6 +25,7 @@ function Navbar() {
      
     </ul>
   </section>
+            </div>
 
     </div>
     )
