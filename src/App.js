@@ -12,7 +12,6 @@ function App() {
       <Banner />
       <Footer />
       <Login />
-      {/* <ToastContainer /> */}
     </div>
   );
 }
