@@ -15,22 +15,24 @@ function Login() {
         name,
         password
     }
-    const handleSub = () => {
+    const handleSub = (e) => {
+        e.preventDefault()
         alert(`
-            Name: ${newUser.name}
+            Email: ${newUser.name}
             Password: ${newUser.password}
         `)
     }
+    console.log(eye)
     return (
         <div className={`login ${login ? 'active' : ''}`}>
             <div className="login__box">
                 <BiExit className='login__exit' onClick={() => dispatch(closeLogin())} />
                 <h2 className="login__title">WELCOME BACK</h2>
                 <form action="" className='login__form' onSubmit={handleSub}>
-                    <input value={name} onChange={(e) => e.target.value} type="text" className='login__inp' />
-                    <input value={password} onChange={(e) => e.target.value} type={`${eye ? 'password' : 'text'}`} className='login__inp' />
+                    <input required value={name} placeholder='deniel123@gmail.com' onChange={(e) => setName(e.target.value)} type="email" className='login__inp' />
+                    <input requiredvalue={password} placeholder='● ● ● ● ● ●' onChange={(e) => setPassword(e.target.value)} type={`${eye ? 'text' : 'password'}`} className='login__inp' />
                     {
-                        eye ? <AiFillEye className='login__eye' onclick={() => setEye(true)} /> : <AiFillEyeInvisible className='login__eye' onclick={() => setEye(false)} />
+                        eye ? <AiFillEye className='login__eye' onClick={() => setEye(!eye)} /> : <AiFillEyeInvisible className='login__eye' onClick={() => setEye(!eye)} />
                     }
                     <button type="submit" className='login__btn'>Sign In</button>
                 </form>

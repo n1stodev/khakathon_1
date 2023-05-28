@@ -4,7 +4,7 @@
     scale: 0;
     display: grid;
     place-items: center;
-    background: transparent;
+    background: #00000088;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +15,7 @@
 .login__box {
     width: 500px;
     height: auto;
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
     background: #fff;
     position: relative;
@@ -25,6 +25,8 @@
     position: absolute;
     top: 15px;
     right: 15px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .login__title {
@@ -45,9 +47,10 @@
     height: 40px;
     border-radius: 25px;
     outline: none;
-    text-indent: 15px;
+    text-indent: 20px;
     border: 1px solid #789ADE;
     color: #789ADE;
+    font-size: 16px;
 }
 .login.active {
     scale: 1;
@@ -66,8 +69,8 @@
 
 .login__eye {
     position: absolute;
-    top: 77px;
-    right: 35px;
+    top: 74px;
+    right: 45px;
     font-size: 22px;
     cursor: pointer;
 }
