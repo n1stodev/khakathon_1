@@ -18,7 +18,7 @@ function Login() {
     const handleSub = (e) => {
         e.preventDefault()
         alert(`
-            Name: ${newUser.name}
+            Email: ${newUser.name}
             Password: ${newUser.password}
         `)
     }
@@ -29,8 +29,8 @@ function Login() {
                 <BiExit className='login__exit' onClick={() => dispatch(closeLogin())} />
                 <h2 className="login__title">WELCOME BACK</h2>
                 <form action="" className='login__form' onSubmit={handleSub}>
-                    <input required value={name} onChange={(e) => setName(e.target.value)} type="text" className='login__inp' />
-                    <input requiredvalue={password} onChange={(e) => setPassword(e.target.value)} type={`${eye ? 'text' : 'password'}`} className='login__inp' />
+                    <input required value={name} placeholder='deniel123@gmail.com' onChange={(e) => setName(e.target.value)} type="email" className='login__inp' />
+                    <input requiredvalue={password} placeholder='● ● ● ● ● ●' onChange={(e) => setPassword(e.target.value)} type={`${eye ? 'text' : 'password'}`} className='login__inp' />
                     {
                         eye ? <AiFillEye className='login__eye' onClick={() => setEye(!eye)} /> : <AiFillEyeInvisible className='login__eye' onClick={() => setEye(!eye)} />
                     }
