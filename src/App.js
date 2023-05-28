@@ -1,16 +1,15 @@
-import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Home from './router/home/Home';
+import Footer from './components/Footer/Footer';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
       <Footer />
+      <ToastContainer />
     </div>
   );
 }
